@@ -1,0 +1,151 @@
+.application{
+    color: #fff;
+    padding: 180px 0 0 130px;
+    height: 700px;
+    background-image: url(../fons/kons.png);
+}
+.application-title{
+    border-top: 1px solid #B6B6B6;
+    height: 34px;
+    width: 1300px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.application-text{
+    padding-top: 82px;
+    width: 649.57px;
+    height: 136px;
+    font-weight: 400;
+    font-size: 28px;
+}
+.application-button{
+    padding-top: 200px;
+}
+.application-btn{
+    background-color: #FEC110;
+    color: #fff;
+    padding: 20px 40px;
+    border-radius: 6.99422px;
+    color: #2C2C2C;
+    font-weight: 400;
+    font-style: 13px;
+}
+@media screen and (min-width: 1280px)  and (max-width: 1440px){
+    .application-title{
+        width: 1072px;
+    }
+}
+@media screen and (min-width: 1024px)  and (max-width: 1279px){
+    .application-title{
+        width: 500px;
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .application{
+        color: #fff;
+        padding: 110px 0 0 130px;
+        height: 400;
+        width: 1024px;
+        background-image: url(../fons/kons.png);
+        background-size:100% 100%;
+    }
+    .application-title{
+        width: 856px;
+        font-size: 8px;
+        line-height: 200%;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    .application-text{
+        padding-top: 92px;
+        width: 415px;
+        height: 90px;
+        font-weight: 400;
+        font-size: 18px;
+    }
+    .application-button{
+        margin-top: 0px;
+    }
+    .application-btn{
+        background-color: #FEC110;
+        color: #fff;
+        padding: 20px 40px;
+        border-radius: 6.99422px;
+        color: #2C2C2C;
+        font-weight: 400;
+        font-style: 13px;
+    }
+}
+@media screen and (min-width: 768px)  and (max-width: 1023px){
+    .application-title{
+        width: 500px;
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .application{
+        color: #fff;
+        padding: 86px 62px 0 62px;
+        width: 768px;
+        height: 331.2px;
+        background-image: url(../fons/kons.png);
+        background-size:100% 150%;
+    }
+    .application-title{
+        width: 643.2px;
+        font-size: 6px;
+        line-height: 200%;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    .application-text{
+        padding-top: 40px;
+        width: 312px;
+        height: 64px;
+        font-weight: 400;
+        font-size: 13px;
+    }
+    .application-button{
+        width: 100px;
+        height: 10px;
+        padding-top: 50px;
+    }
+    .application-btn{
+        padding: 9.6px 19.2px;
+        border-radius: 3.36px;
+        font-size: 8px;
+    }
+}
+@media screen and (min-width: 640px)  and (max-width: 767px){
+    .application{
+        color: #fff;
+        padding: 40px 62px 0 62px;
+        width: 640px;
+        height: 240px;
+        background-image: url(../fons/kons.png);
+        background-size:100% 150%;
+    }
+    .application-title{
+        width: 500px;
+        font-size: 6px;
+        line-height: 200%;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    .application-text{
+        padding-top: 10px;
+        width: 312px;
+        height: 64px;
+        font-weight: 400;
+        font-size: 10px;
+    }
+    .application-button{
+        width: 100px;
+        height: 10px;
+        padding-top: 0px;
+    }
+    .application-btn{
+        padding: 4px 8px;
+        border-radius: 3.4px;
+        font-size: 8px;
+    }
+}

@@ -1,0 +1,208 @@
+
+.information{
+    display: flex;
+    color: #2C2C2C;
+    background-color: #F5F5F5;
+    padding: 180px 130px 0 130px;
+}
+.information-text{
+    width: 649px;
+    height: 350px;
+}
+.information-header{
+    width: 649px;
+    height: 136px;
+    font-size: 28px;
+    line-height: 120%;
+}
+.information-middle{
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 140%;
+    width: 419px;
+    height: 66px;
+}
+.information-down{
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 140%;
+    width: 419.72px;
+    height: 88px;
+}
+.information-card{
+    margin-left: 40px;
+    padding-top: 10px;
+    width: 599px;
+    height: 319px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 40px;
+    grid-row-gap: 3em;
+}
+.information-vector{
+    width: 260px;
+    height: 130px;
+}
+.vector-info{
+    font-size: 21px;
+    line-height: 120%;
+    width: 150px;
+}
+
+
+
+
+@media screen and (min-width: 1280px)  and (max-width: 1440px){
+    .vector-info{
+        font-size: 16px;
+        line-height: 120%;
+        width: 100px;
+    }
+    .information-vector{
+        width: 150px;
+        height: 130px;
+    }
+
+}
+@media screen and (min-width: 1024px)  and (max-width: 1279px){    
+    .information{
+        padding: 115px 115px 0 83px;
+    }
+    .information-header{
+        width: 416px;
+        height: 84px;
+        font-size: 18px;
+        line-height: 120%;
+    }
+    .information-text{
+        width: 416px;
+        height: 224px;
+    }
+    .information-middle{
+        margin-top: 10px;
+        font-size: 14px;
+        line-height: 140%;
+        width: 269px;
+        font-weight: 400;
+        height: 75px;
+    }
+    .information-down{
+        margin-top: 20px;
+        font-size: 14px;
+        line-height: 140%;
+    }
+    .vector-info{
+        font-size: 14px;
+        line-height: 120%;
+        width: 166px;
+    }
+    .information-vector{
+        width: 167px;
+        height: 83px;
+    }
+}
+@media screen and (min-width: 768px)  and (max-width: 1023px){
+    .information{
+        padding: 115px 0px  0px 63px;
+        height: 452px;
+    }
+    .information-header{
+        width: 312px;
+        height: 64px;
+        font-size: 13px;
+        line-height: 120%;
+    }
+    .information-text{
+        margin-top: 86px;
+        width: 312px;
+        height: 169.76px;
+    }
+    .information-middle{
+        margin-top: 20px;
+        font-size: 8px;
+        line-height: 140%;
+        width: 201.6px;
+        height: 33px;
+        font-weight: 400;
+    }
+    .information-down{
+        margin-top: 20px;
+        font-size: 8px;
+        line-height: 140%;
+        width: 201.6px;
+        height: 44px;
+    }
+    .vector-info{
+        font-size: 10px;
+        line-height: 120%;
+        width: 125px;
+    }
+    .vector-img{
+        width: 28.8px;
+        height: 28.8px;
+        
+    }
+    .information-vector{
+        width: 124.8px;
+        height: 62.4px;
+    }
+    .information-card{
+        margin-top: 86px;
+        width: 288px;
+        height: 153.6px;
+    }
+}
+@media screen and (min-width: 640px)  and (max-width: 767px){
+    .information{
+        padding: 98px 0px  0px 80px;
+        height: 416px;
+    }
+    .information-header{
+        width: 247px;
+        height: 64px;
+        font-size: 12px;
+        line-height: 120%;
+    }
+    .information-text{
+        margin-top: 86px;
+        width: 270px;
+        height: 169.76px;
+    }
+    .information-middle{
+        margin-top: 20px;
+        font-size: 8px;
+        line-height: 140%;
+        width: 201.6px;
+        height: 33px;
+        font-weight: 400;
+    }
+    .information-down{
+        margin-top: 20px;
+        font-size: 8px;
+        line-height: 140%;
+        width: 201.6px;
+        height: 44px;
+    }
+    .vector-info{
+        font-size: 8px;
+        line-height: 120%;
+        width: 80px;
+    }
+    .vector-img{
+        width: 25px;
+        height: 25px;
+        
+    }
+    .information-vector{
+        width: 80px;
+        height: 62.4px;
+    }
+    .information-card{
+        margin-top: 86px;
+        margin-left: 0px;
+        width: 250px;
+        height: 153.6px;
+        grid-column-gap: 20px;
+        grid-row-gap: 1em;
+    }
+}

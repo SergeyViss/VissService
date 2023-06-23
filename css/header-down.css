@@ -1,0 +1,253 @@
+.header-down{
+    display: flex;
+    height: 650px;
+    background-color: #313232;
+}
+
+.header-left{
+    height: 650px;
+    width: 724px;
+}
+.header-right{
+    margin-left: 97px;
+    height: 650px;
+    width: 780px;
+    overflow: hidden;
+}
+
+.header-img{
+    width: 779.48px;
+    height: 649.57px;
+}
+
+.header-title{
+    color: #fff;
+    font-size: 67px;
+    font-weight: 400px;
+    padding: 80px 0 0 100px;
+}
+
+.title-number{
+    color: #FEC110;
+    padding-top: 58px;
+}
+.header-info{
+    font-size: 36px;
+    padding: 49px 0 0 100px;
+}
+.header-text{
+    color: #fff
+}
+.header-text_1{
+    color: #989898;
+}
+.header-btn{
+    margin-top: 80px;
+    color:#2C2C2C;
+    background-color: #FEC110;
+    padding: 20px 49px;
+    border-radius: 6.99422px;
+    font-weight: 400;
+    font-size: 16px;
+}
+.header-button{
+    padding: 49px 0 0 100px;
+    width: 779.48px;
+}
+
+
+@media screen and (min-width: 1280px)  and (max-width: 1440px){
+    .header-down{
+        display: flex;
+        height: 550px;
+        background-color: #313232;
+    }
+    
+    .header-left{
+        height: 650px;
+        width: 724px;
+    }
+    .header-right{
+        margin-left:  auto;
+        height: 550px;
+        width: 680px;
+        overflow: hidden;
+    }
+    .header-left{
+        height: 550px;
+        width: 624px;
+    }
+    .header-title{
+        color: #fff;
+        font-size: 47px;
+        font-weight: 300px;
+        padding: 50px 0 0 100px;
+    }
+    .header-info{
+        font-size: 36px;
+        padding: 49px 0 0 100px;
+        
+    }
+    .header-button{
+        padding: 49px 0 0 100px;
+        width: 779.48px;
+    }
+}
+@media screen and (min-width: 1024px)  and (max-width: 1279px){
+    .header-title{
+        color: #fff;
+        font-size: 48px;
+        font-weight: 400px;
+        padding: 50px 0 0 50px;
+    }
+    .header-down{
+        display: flex;
+        height: 416px;
+        background-color: #313232;
+    }
+    .header-left{
+        height: 416px;
+        width: 524px;
+    }
+    .title-number{
+        color: #FEC110;
+        padding-top: 36px;
+        font-size: 42px;
+    }
+    .header-info{
+        padding: 31px 0 0 50px;
+        font-weight: 100;
+        font-size: 14px;
+        line-height: 140%;
+    }
+    .header-text{
+        color: #fff;
+    }
+    .header-text_1{
+        color: #989898;
+    }
+    .header-button{
+        padding: 40px 0 0 50px;
+        width: 779.48px;
+    }
+    .header-btn{
+        margin-top: 20px;
+        color:#2C2C2C;
+        background-color: #FEC110;
+        padding: 12px 25px;
+        border-radius: 6.99422px;
+        font-weight: 400;
+        font-size: 12px;
+    }
+    .header-right{
+        margin-left: 2px;
+        width: 498.92px;
+        height: 415.77px;
+        overflow: hidden;
+    }
+    .header-img{
+        width: 499px;
+        height: 416px;
+    }
+}
+@media screen and (min-width: 768px)  and (max-width: 1023px){
+    .header-title{
+        color: #fff;
+        font-size: 32px;
+        font-weight: 400px;
+        padding: 38px 0 0 62px;
+    }
+    .header-down{
+        display: flex;
+        height: 312px;
+        background-color: #313232;
+    }
+    .header-left{
+        height: 312px;
+        width: 374.4px;
+    }
+    .title-number{
+        padding-top: 32px;
+    }
+    .header-info{
+        padding: 23px 0 0 62px;
+        font-size: 8px;
+    }
+    .header-text{
+        color: #fff;
+    }
+    .header-text_1{
+        color: #989898;
+    }
+    .header-button{
+        padding: 40px 0 0 50px;
+        margin-left: 12px;
+        width: 700px;
+    }
+    .header-btn{
+        margin-top: 27px;
+        padding: 10px 19px;
+        border-radius: 3.4px;
+        font-size: 8px;
+    }
+    .header-right{
+        margin-left: 19px;
+        height: 312px;
+        width: 374.4px;
+    }
+    .header-img{
+        height: 312px;
+        width: 374.4px;
+    }
+}
+@media screen and (min-width: 640px)  and (max-width: 767px){
+    .header-title{
+        color: #fff;
+        font-size: 16px;
+        font-weight: 400px;
+        padding: 15px 0 0 80px;
+    }
+    .header-down{
+        display: flex;
+        height: 200px;
+        background-color: #313232;
+    }
+    .header-left{
+        height: 250px;
+        width: 310px;
+    }
+    .title-number{
+        padding-top: 14px;
+    }
+    .header-info{
+        padding: 15px 0 0 80px;
+        font-size: 10px;
+    }
+    .header-text{
+        color: #fff;
+    }
+    .header-text_1{
+        color: #989898;
+    }
+    .header-button{
+        padding: 40px 0 0 50px;
+        margin-left: 30px;
+        margin-top: -15px;
+        width: 500px;
+    }
+    .header-btn{
+        margin-top: 0px;
+        padding: 5px 15px;
+        border-radius: 3.4px;
+        font-size: 8px;
+    }
+    .header-right{
+        margin-left: 19px;
+        height: 200px;
+        width: 320px;
+    }
+    .header-img{
+        height: 200px;
+        width: 320px;
+    }
+}
