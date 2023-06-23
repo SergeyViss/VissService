@@ -1,0 +1,330 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <link rel="stylesheet" href="css/style.css">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>VissService</title>
+</head>
+
+<body>
+    
+    <div class="header">
+        <div class="container">
+            <div class="header-line">
+                <div class="header-log">
+                    <img class="header-png" src="img\\Logo.png" alt="">
+                </div>
+
+                <div class="nav">
+                    <a class="nav-item_services" href="#">Услуги</a>
+                    <form method="post" action="/booking" class="popup-main  popup-services">
+                        <span class="close"></span>
+                        <a href="#part1" class="popup-text_services" >Ремонт автомобиля</a>
+                        <a href="#part1" class="popup-text_services" >Плановое ТО</a>
+                        <a href="#part1" class="popup-text_services" >Диагностика и ремонт</a>
+                        <a href="#part1" class="popup-text_services" >Чип тюнинг</a>
+                    </form>
+                    <a class="nav-item" href="#part2">О компании</a>
+                    <a class="nav-item" href="#part2">Гарантии</a>
+                    <a class="nav-item" href="#">Магазин</a>
+                    <a class="nav-item" href="#part3">Контакты</a>
+                </div>
+                <div class="cnopka">
+                    <div class="btn1">
+                        <button class="button" href="#">Запись на сервис</button>
+                        <form method="POST" action="services.php" class="popup-main  popup">
+                            <h2 class="pop-title">Запись на сервис</h2>
+                            <span class="close"></span>
+                            <input class="popup-text" type="text" name="name" placeholder="Ваше имя"required >
+                            <input class="popup-text" type="text" name="number" placeholder="Контактный телефон"required >
+                            <input class="popup-text" type="text" name="auto" placeholder="Марка автомобиля"required >
+                            <input class="popup-text" type="text" name="text" placeholder="Краткое описание проблемы" required>
+                            <button class="popup-text_button"  type="submit">Отправить</button>
+                            <label  for="user-contract">Нажимая кнопку «Отправить» вы даете согласие на Обработку персональных данных</label>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="header-down">
+        <div class="header-left">
+            <div class="header-title">
+                    Специализированный
+                    <div class="header-subtitle">
+                        Автосервис
+                    </div>
+                <div class="title-number">
+                    +7(963) 441-74-71
+                </div>
+            </div>
+            <div class="header-info">
+                <div class="header-text_1">Работаем для вас: </div>
+                <div class="header-text">Ежедневно с 9:00 до 21:00</div>
+                <div class="header-text_1">По адресу: </div>
+                <div class="header-text">Верхняя Салда, ул. Энгельса, 36</div>
+            </div>
+            <div class="header-button">
+                <a href="#part1" class="header-btn">Смотреть услуги</a>
+            </div>
+        </div>
+        <div class="header-right">
+            <div class="slider">
+                <div class="slider-line">
+                <img class="header-img" src="img\\1.png" alt="">
+                <img class="header-img" src="img\\2.png" alt="">
+                <img class="header-img" src="img\\3.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="slider-button">
+            <img class="slider-left" src="img/left.png" alt="" >
+            <img class="slider-right" src="img/right.png" alt="">
+        </div>
+    </div>
+
+    <div class="advantages-container">
+        <div class="advantages">
+            <div class="advantages-title">
+                Главное преимущество компании
+            </div>
+            <div class="advantages-top">
+                <div class="advantages-info">
+                    Работаем с 2022 года
+                </div>
+                <div class="advantages-text">
+                    Вашим автомобилем будут заниматься люди с большим опытом, полученным за многие годы и прошедшие множество обучений.
+                    Сотрудники обладают огромным багажом знаний, применяемых на практике. 
+                </div>
+            </div>
+        </div>
+        <div class="services">
+            <div id="part1" class="services-title">
+                Услуги автосервиса
+            </div>
+            <div class="services-card">
+                <div class="card">
+                    <img class = "card-img" src="img\\image1.png" alt="">
+                    <div class="card-info">
+                        Ремонт автомобиля
+                    </div>
+                </div>
+                <div class="card">
+                    <img class = "card-img" src="img\\image2.png" alt="">
+                    <div class="card-info">
+                        Плановое ТО
+                    </div>
+                </div>
+                <div class="card">
+                    <img class = "card-img" src="img\\image3.png" alt="">
+                    <div class="card-info">
+                        Диагностика и ремонт
+                    </div>
+                </div>
+                <div  class="card">
+                    <img class = "card-img" src="img\\image4.png" alt="">
+                    <div class="card-info">
+                        Чип тюнинг
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="part2" class="information">
+        <div class="information-text">
+            <div class="information-header">
+                Обратившись к нам, в автоцентр, вы окажетесь в надёжных руках специалистов послегарантийного ремонта и технического обслуживания автомобилей.
+            </div>
+            <div class="information-middle">
+                Чтобы автомобиль всегда оставался в отличной форме, необходимо выполнять регулярное ТО по программе рекомендованной производителем.
+            </div>
+            <div class="information-down">
+                Подразделение нашей компании СЕРТИФИЦИРОВАННО - это позволяет производить обслуживание вашего автомобиля С СОХРАНЕНИЕМ ГАРАНТИИ.
+            </div>
+        </div>
+        <div class="information-card">
+            <div class="information-vector">
+                <img class="vector-img" src="img/Vector.png" alt="">
+                <div class="vector-info">
+                    Гарантия работы 1 год
+                </div>
+            </div>
+            <div class="information-vector">
+                <img class="vector-img" src="img/Vector1.png" alt="">
+                <div class="vector-info">
+                    Квалифицированные сотрудники
+                </div>
+            </div>
+            <div class="information-vector">
+                <img class="vector-img" src="img/Vector2.png" alt="">
+                <div class="vector-info">
+                    Комфортные зоны ожидания
+                </div>
+            </div>
+            <div class="information-vector">
+                <img class="vector-img" src="img/Vector3.png" alt="">
+                <div class="vector-info">
+                    Современное оборудование
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="comment">
+        <div class="comment-title">
+            <div class="comment-text">
+                Отзывы пользователей об Автоцентре
+            </div>
+            <div class="comment-score">
+                4
+            </div>
+        </div>
+        <div class="comment-info">
+            <div class="comment-persona">
+                <div class="comment-user">
+                    <img class="comment-user" src="img\\User.png" alt="">
+                </div>
+                <div class="comment-stat">
+                    <div class="user-name">
+                        nityng202
+                    </div>
+                    <div class="comment-date">
+                        20 сентября 2022
+                    </div>
+                    <div class="comment-star">
+                        <img class="comment-star" src="img\\Vector-y.png" alt="">
+                        <img class="comment-star" src="img\\Vector-y.png" alt="">
+                        <img class="comment-star" src="img\\Vector-y.png" alt="">
+                        <img class="comment-star" src="img\\Vector-y.png" alt="">
+                        <img class="comment-star" src="img\\Vector-n.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="comment-txt">
+                Оставил машину в ремонте, пошел погулять до парка, пока гулял мне позвонили и сказали что сделали, пришел, забрал, быстро и качественно.
+            </div>
+        </div>
+    </div>
+    <div class="application">
+        <div class="application-title">
+            Получить консультацию
+        </div>
+        <div class="application-text">
+            Оставьте заявку, и наш мастер перезвонит вам, произведет предварительную оценку стоимости услуг и запчастей, и подберет удобное время для визита.
+        </div>
+        <div class="application-button">
+            <button class="application-btn" >Оставить заявку</button>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer-top">
+            <div class="footer-email">
+                VissService@yandex.ru
+            </div>
+            <div id="part3" class="footer-info">
+                <a class="footer-href" href="#part2">О компании</a>
+                <a class="footer-href" href="#part2">Гарантии</a>
+                <a class="footer-href" href="#">Магазин</a>
+                <a class="footer-href" href="#part3">Контакты</a>
+            </div>
+        </div>
+        <div class="footer-middle">
+            <div class="footer-left">
+                <div class="left-title">Работаем для вас</div>
+                <div class="left-title">Ежедневно с 9:00 до 21:00</div>
+                <div class="footer-button1">
+                    <button  class="button1" type="button">Обратный звонок</button >
+                    <form method="POST" action="call.php" class="popup-main popup-call">
+                        <h2 class="pop-title_call">Перезвоним в течении часа</h2>
+                        <span class="close"></span>
+                        <input class="popup-text" type="text" name="name_call" placeholder="Ваше имя *" required>
+                        <input class="popup-text" type="text" name="number_call" placeholder="Контактный телефон *" required>
+                        <input class="popup-text" type="text" name="text_call" placeholder="Комментарий" required>
+                        <button class="popup-text_button"  type="submit">Отправить</button>
+                        <label for="user-contract">Нажимая кнопку «Отправить» вы даете согласие на Обработку персональных данных</label>
+                    </form>
+                </div>
+                <div class="footer-button2">
+                    <a class="button2" href="">Контроль качества</a>
+                </div>
+                <div class="left-set">
+                    <div  >
+                        <img class="left-set_img"  src="img/vk.png" alt="">
+                    </div>
+                    <div >
+                        <img class="left-set_img" src="img\\inst.png" alt="">
+                    </div>
+                    <div >
+                        <img class="left-set_img"src="img\\tw.png" alt="">
+                    </div>
+                    <div >
+                        <img class="left-set_img" src="img\\yt.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="footer-centre">
+                <div class="centre-title">
+                    Автоцентр
+                </div>
+                <div class="footer-center-info">
+                    <div class="footer-centre-text">
+                        Автосервис
+                    </div>
+                    <div class="footer-centre-text">
+                        Кузовной ремонт и детейлинг
+                    </div>
+                </div>
+                <div class="address-title">
+                    Адрес автоцентра:
+                </div>
+                <div class="address-info">
+                    Верхняя Салда, ул. Энгельса, 36 +7 (963) 441-74-71
+                </div>
+            </div>
+            <div class="footer-right">
+                <div class="centre-title">
+                    Услуги
+                </div>
+                <div class="footer-center-info">
+                    <div class="footer-centre-text">
+                        Ремонт автомобиля
+                    </div>
+                    <div class="footer-centre-text">
+                        Плановое ТО
+                    </div>
+                    <div class="footer-centre-text">
+                        Диагностика
+                    </div>
+                    <div class="footer-centre-text">
+                        Кузовной ремонт и детейлинг
+                    </div>
+                    <div class="footer-centre-text">
+                        Чип тюнинг
+                    </div>
+                </div>
+                <div class="address-centrtitle">
+                    Адрес автоцентра:
+                </div>
+                <div class="address-info">
+                    Верхняя Салда, ул. Энгельса, 36 +7 (963) 441-74-71
+                </div>
+            </div>
+        </div>
+        <div class="year">
+            © 2022 Специализированный автоцентр
+        </div>
+    </div>
+
+    <script type="text/javascript" src="../master/js/jquery.js"></script>
+    <script type="text/javascript" src="../master/js/popup.js"></script>
+    <script type="text/javascript" src="../master/js/slider.js"></script>
+</body>
+</html>
